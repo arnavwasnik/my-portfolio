@@ -1,0 +1,17 @@
+// src/components/Hero.js
+import React from 'react';
+import './Hero.css';
+
+function Hero() {
+  return (
+    <section className="hero">
+      <div className="hero-content">
+        <h1>Hi, I'm Arnav 👋</h1>
+        <p>A passionate AI student from GHRCEMN Nagpur</p>
+        <p>Frontend Developer | AI Enthusiast | Club Secretary</p>
+      </div>
+    </section>
+  );
+}
+
+export default Hero;

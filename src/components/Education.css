@@ -1,0 +1,72 @@
+/* Education Section */
+.section-container.Education-custom {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 2.5rem 3rem;
+  background: linear-gradient(135deg, #0b1224 0%, #1a2a5a 100%);
+  border-radius: 15px;
+  box-shadow: 0 0 30px 6px #bfa25a;
+  color: #f3e6d9;
+}
+
+.section-container.Education-custom h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #f5d48f;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #705f1e;
+  border-bottom: 2px solid #bfa25a;
+  padding-bottom: 0.4rem;
+}
+
+
+/* Box-style cards */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-card {
+  background: #162132;
+  border: 1px solid #00ffd5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 255, 213, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(0, 255, 213, 0.3);
+}
+
+.education-card h3 {
+  color: #00ffd5;
+  margin-bottom: 10px;
+}
+
+.education-card p {
+  color: #ccc;
+  margin: 6px 0;
+}
+
+.education-card strong {
+  color: #00e6c3;
+}
+
+.education-card em {
+  color: #aaa;
+}
+
+/* Semesters */
+.semester-list {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+  color: #9ff;
+}
+
+.semester-list li {
+  margin-left: 10px;
+}

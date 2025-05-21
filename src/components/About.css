@@ -1,0 +1,39 @@
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 3rem 3rem 5rem 5rem; /* Increased left padding */
+  flex-wrap: wrap;
+  padding-top: 100px; /* Adjust value if needed */
+}
+
+
+
+.about-photo {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.2);
+    margin-right: 2rem;
+}
+
+.about-content {
+  flex: 1;
+  min-width: 250px;
+  max-width: 80%;
+}
+
+.about-name {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  color: #00FFFF;
+  font-family: 'Montserrat (Sans-Serif)';
+}
+
+.about-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f0f0f0;
+  font-family: 'Open Sans (Sans-Serif)',
+}

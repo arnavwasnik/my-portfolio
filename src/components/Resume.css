@@ -1,0 +1,70 @@
+/* Resume.css */
+
+.resume-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem 3rem;
+  background: linear-gradient(135deg, #0b1224 0%, #1a2a5a 100%);
+  border-radius: 15px;
+  box-shadow: 0 0 30px 6px #bfa25a;
+  color: #f3e6d9;
+  text-align: center;
+}
+
+.resume-buttons {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.resume-buttons button {
+  background-color: transparent;
+  border: 2px solid #bfa25a;
+  color: #bfa25a;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resume-buttons button:hover {
+  background-color: #f5d48f;
+  color: #0b1224;
+  border-color: #f5d48f;
+}
+
+.resume-buttons button.active {
+  background-color: #bfa25a;
+  color: #0b1224;
+  border-color: #bfa25a;
+  box-shadow: 0 0 12px 3px #bfa25a;
+}
+
+.resume-image {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-preview {
+  max-width: 100%;
+  max-height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px 6px #2db6d1;
+}
+
+.spinner {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 40px auto; /* Center horizontally */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

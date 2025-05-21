@@ -1,38 +1,166 @@
-.App {
+/* Global body */
+/* Global body */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0b0f14, #1f1f1f, #141414);
+  color: #dcdcdc;
+  box-shadow: 0 0 15px rgba(0, 255, 213, 0.1), 0 0 30px rgba(0, 255, 213, 0.05);
+}
+
+
+
+
+/* Navbar */
+.navbar {
+  background-color: #121f3d; /* Slightly lighter navy */
+  padding: 1rem 2rem;
+  box-shadow: 0 0 15px 3px #bfa25a; /* golden glow */
+  color: #bfa25a;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* Navbar links */
+.navbar a {
+  color: #bfa25a;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #f5d48f;
+}
+
+/* Section container for all main sections */
+.section-container {
+  background: linear-gradient(135deg, #0b1224 0%, #1a2a5a 100%);
+  margin: 2rem auto;
+  padding: 2.5rem 3rem;
+  border-radius: 15px;
+  max-width: 900px;
+  box-shadow: 0 0 30px 6px #bfa25a;
+}
+
+/* Section headings */
+.section-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #f5d48f; /* golden */
+  text-shadow: 1px 1px 2px #705f1e;
+  border-bottom: 2px solid #bfa25a;
+  padding-bottom: 0.4rem;
+}
+
+/* Skill items */
+.skills-custom {
+  max-width: 1200px;
+}
+
+/* Skills Section */
+
+
+
+/* About section */
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e8d9b9;
+  max-width: 700px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Projects styling already has golden glow, keep consistent */
+.project-card {
+  background: #1a2a5a;
+  color: #f3e6d9;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 25px 5px #bfa25a;
+  margin-bottom: 1.8rem;
+  transition: transform 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 40px 8px #f5d48f;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Buttons */
+button {
+  background-color: #bfa25a;
+  color: #0b1224;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 12px 3px #bfa25a;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #f5d48f;
+  box-shadow: 0 0 20px 6px #f5d48f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Footer or bottom sections */
+.footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  text-align: center;
+  color: #bfa25a;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+}
+
+/* internships*/
+.Internships-custom {
+  max-width: 1100px;
+}
+
+/* Education*/
+.Education-custom {
+  max-width: 1100px;
+}
+
+/* extracurricular*/
+.extracurricular-custom {
+  max-width: 1600px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+button,
+a.button {
+  background: #00ffd5;
+  color: #111;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 255, 213, 0.5);
+}
+
+button:hover,
+a.button:hover {
+  background: #00e6c3;
+  box-shadow: 0 0 15px rgba(0, 255, 213, 0.7);
 }
